@@ -5,7 +5,7 @@ Provides Https Middleware for a Laravel App.
 ## Installation
 
 1. `composer require rootinc/laravel-https-middleware`
-2. In our `App\Http\Kernel.php` add `\App\Http\Middleware\HttpsProtocol::class,` to the web middleware group.
+2. In our `App\Http\Kernel.php` add `\RootInc\LaravelHttpsMiddleware\HttpsProtocol::class` to the web middleware group.
 3. :shipit:
 
 ## Contributing
